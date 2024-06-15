@@ -1,0 +1,55 @@
+body {
+    background: url("./Images/BG.jpg") #CCCCCC;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Comic Sans MS';
+}
+
+
+nav,
+footer {
+    font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'
+}
+
+#HomeName {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+#HomeName a {
+    color: #003475;
+    text-decoration: none;
+    position: relative;
+    cursor: default;
+    transition: font-size 1s, letter-spacing 1s;
+}
+
+#HomeName a:hover {
+    font-size: 75px;
+    letter-spacing: 20px;
+}
+
+#box {
+    transition: box-shadow .2s;
+}
+
+#box:hover {
+    box-shadow: 1px 1px 15px 10px #003475;
+}
+
+#PageNameA {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    transition: color 1s, font-size 1s;
+}
+
+#PageNameA:hover {
+    cursor: default;
+    font-size: 30px;
+}
