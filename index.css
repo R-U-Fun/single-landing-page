@@ -1,14 +1,13 @@
 body {
-    background: url("./Images/BG.jpg") #CCCCCC;
+    background: url("./Images/BG.jpg") #000340;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Comic Sans MS';
+    cursor: default;
 }
 
 
-nav,
 footer {
-    font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #111111 100%);
 }
 
 #HomeName {
@@ -52,4 +51,20 @@ footer {
 #PageNameA:hover {
     cursor: default;
     font-size: 30px;
+}
+
+.card-body {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 10, 1) 100%);
+}
+
+.navbar {
+    background: rgba(0, 0, 10, 0.5);
+}
+
+.rounded-image {
+    border-radius: 25px;
+}
+
+.modal-content {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #111111 100%);
 }
